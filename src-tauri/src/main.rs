@@ -7,8 +7,8 @@ use window_shadows::set_shadow;
 
 fn main() {
     tauri::Builder::default().setup(|app| {
-        let window = app.get_window("main").expect("Error");
-        set_shadow(&window, true).unwrap(); 
+        let window = app.get_window("main").unwrap();
+        set_shadow(&window, true).expect("Failed to set shadow");
         Ok(())
     }).invoke_handler(tauri::generate_handler![greet])
         .run(tauri::generate_context!())
