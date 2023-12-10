@@ -10,7 +10,6 @@ fn main() {
         let window = app.get_window("main").unwrap();
         set_shadow(&window, true).expect("Failed to set shadow");
         Ok(())
-    }).invoke_handler(tauri::generate_handler![greet])
-        .run(tauri::generate_context!())
+    })  .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
