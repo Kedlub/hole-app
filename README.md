@@ -1,7 +1,15 @@
-# Tauri + Svelte + Typescript
+# Hole App
+A perfectly normal application, doing nothing out of ordinary. Made using Svelte and Tauri.
 
-This template should help get you started developing with Tauri, Svelte and TypeScript in Vite.
+## Prerequisites
+- [pnpm](https://pnpm.js.org/en/installation)
+- [rust](https://www.rust-lang.org/tools/install)
 
-## Recommended IDE Setup
+## Running
+```sh
+pnpm install
+pnpm tauri dev
+```
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+## Preview
+![Preview](/preview.png)
