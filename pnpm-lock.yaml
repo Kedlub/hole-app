@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.4.2
-        version: 2.5.3(svelte@4.2.19)(vite@4.5.2)
+        version: 2.5.3(svelte@4.2.19)(vite@4.5.5)
       '@tauri-apps/cli':
         specifier: ^1.5.6
         version: 1.5.7
@@ -34,8 +34,8 @@ importers:
         specifier: ^5.0.2
         version: 5.3.3
       vite:
-        specifier: ^4.5.2
-        version: 4.5.2
+        specifier: ^4.5.5
+        version: 4.5.5
 
 packages:
 
@@ -634,8 +634,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  vite@4.5.2:
-    resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
+  vite@4.5.5:
+    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -775,26 +775,26 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@4.2.19)(vite@4.5.2))(svelte@4.2.19)(vite@4.5.2)':
+  '@sveltejs/vite-plugin-svelte-inspector@1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@4.2.19)(vite@4.5.5))(svelte@4.2.19)(vite@4.5.5)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.5.3(svelte@4.2.19)(vite@4.5.2)
+      '@sveltejs/vite-plugin-svelte': 2.5.3(svelte@4.2.19)(vite@4.5.5)
       debug: 4.3.4
       svelte: 4.2.19
-      vite: 4.5.2
+      vite: 4.5.5
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@2.5.3(svelte@4.2.19)(vite@4.5.2)':
+  '@sveltejs/vite-plugin-svelte@2.5.3(svelte@4.2.19)(vite@4.5.5)':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@4.2.19)(vite@4.5.2))(svelte@4.2.19)(vite@4.5.2)
+      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@4.2.19)(vite@4.5.5))(svelte@4.2.19)(vite@4.5.5)
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.5
       svelte: 4.2.19
       svelte-hmr: 0.15.3(svelte@4.2.19)
-      vite: 4.5.2
-      vitefu: 0.2.5(vite@4.5.2)
+      vite: 4.5.5
+      vitefu: 0.2.5(vite@4.5.5)
     transitivePeerDependencies:
       - supports-color
 
@@ -1187,7 +1187,7 @@ snapshots:
 
   typescript@5.3.3: {}
 
-  vite@4.5.2:
+  vite@4.5.5:
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.32
@@ -1195,8 +1195,8 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@4.5.2):
+  vitefu@0.2.5(vite@4.5.5):
     optionalDependencies:
-      vite: 4.5.2
+      vite: 4.5.5
 
   wrappy@1.0.2: {}
